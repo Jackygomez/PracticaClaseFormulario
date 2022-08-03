@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de productos</title>
+</head>
+<body>
+    
+<div><center><h1>Información de los productos</h1></center></div>
+<br>
+    <form action="">
+        Nombre
+        <input type="text" name="nombre" id="nombre">
+        <div>
+            <br>
+            Tipo del producto
+            <select name="tipo" id="tipo">
+                <option value="Verdura">Verdura</option>
+                <option value="Fruta">Fruta</option>
+            </select>
+        </div>  
+        <br>
+        Precio
+        <input type="number" name="precio" id="precio">
+        <div>
+            <br>
+            Fecha de cosecha
+            <input type="date" name="cosecha" id="cosecha">
+        </div>
+        <div>
+            <br>
+            Tiene descuento
+            <input type="radio" name="SI" id="SI">Si
+            <input type="radio" name="SI" id="SI">No
+        </div>
+        <div>
+            <br>
+            Fecha de vencimiento
+            <input type="date" name="vencimiento" id="vencimiento">
+        </div>
+        <div>
+            <br>
+            <label for="foto"> Subir foto del producto</label>
+            <input type="file" name="foto" id="foto">
+            
+        </div>
+        <br>
+        <label for="">Descripción del producto</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Descrpcion"></textarea>
+        <div>
+            <br>
+            Califica calidad
+            <input type="range" name="calificacion" id="calificacion" min="1" max="5">
+        </div>
+        
+    
+</form>
+
+</body>
+</html>
